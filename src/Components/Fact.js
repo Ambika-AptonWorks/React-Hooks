@@ -41,6 +41,7 @@ function Fact(){
             <input type="text" placeholder="Enter name" 
             onChange={(e)=>setName(e.target.value)}/>
             <Displayname displayname={displayname}></Displayname>
+            <hr></hr>
         </div>
     )
 

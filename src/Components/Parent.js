@@ -18,7 +18,7 @@ function Parent(){
 
 
     return(
-        <div>
+        <div >
             <Title />
             <Count text="age" count={age} />
             <Button handleClick={incrementAge}>IncrementAge</ Button>
