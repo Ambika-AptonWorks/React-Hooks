@@ -1,11 +1,12 @@
 import React from 'react';
-import Calculator from './Calculator';
+import Form from '../Form';
 
 const App =()=> {
  
   return (
     <div>
-        <Calculator />
+      <Form />
+       
     </div>
   );
 }

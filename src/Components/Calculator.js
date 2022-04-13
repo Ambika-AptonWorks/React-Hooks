@@ -1,5 +1,6 @@
 import React,{useState}from 'react'
 import './Calculator.css';
+
 const Calculator=()=>{
     const[result,setResult]=useState("")
 
@@ -19,7 +20,6 @@ const Calculator=()=>{
         }catch(err){
             setResult("Error")
         }
-        
     }
     return(
         <>
@@ -47,6 +47,7 @@ const Calculator=()=>{
         <button onClick={handleClick} name="." >.</button>
         </div>
         </div>
+        
         </>
         
 )
